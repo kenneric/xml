@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<schedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
+
+    <studentname>Joe Bloe</studentname>
+    <studentid>1</studentid>
+    <program>Fishing</program>
+    <schoolname>Americas School of Fishing</schoolname>
+    <schoolterm>1</schoolterm>
+
+    <day>
+        <dayname>Monday</dayname>
+        <hour>
+            <start>800</start>
+            <code>FISH1234</code>
+            <room>1</room>
+        </hour>
+        <hour>
+            <start>1400</start>
+            <code>HUNT5231</code>
+            <room>2</room>
+        </hour>
+    </day>
+
+    <day>
+        <dayname>Tuesday</dayname>
+        <hour>
+            <start>1000</start>
+            <code>LOVE9876</code>
+            <room>3</room>
+        </hour>
+        <hour>
+            <start>1200</start>
+            <code>WOOP2324</code>
+            <room>4</room>
+        </hour>
+    </day>
+    <day>
+        <dayname>Wednesday</dayname>
+        <hour>
+            <start>1600</start>
+            <code>RACE9999</code>
+            <room>5</room>
+        </hour>
+        <hour>
+            <start>1900</start>
+            <code>CURE3289</code>
+            <room>4</room>
+        </hour>
+    </day>
+    <day>
+        <dayname>Thursday</dayname>
+        <hour>
+            <start>1400</start>
+            <code>LEAP8942</code>
+            <room>3</room>
+        </hour>
+        <hour>
+            <start>1700</start>
+            <code>RAND7564</code>
+            <room>2</room>
+        </hour>
+    </day>
+    <day>
+        <dayname>Friday</dayname>
+        <hour>
+            <start>900</start>
+            <code>BUMP3034</code>
+            <room>1</room>
+        </hour>
+        <hour>
+            <start>1000</start>
+            <code>TAME9342</code>
+            <room>99</room>
+        </hour>
+    </day>
+
+
+
+</schedule>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<schedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
+
+    <studentname>Bob Ryan</studentname>
+    <!-- Negative ID -->
+    <studentid>-100</studentid>
+    <program>Slam Dunks</program>
+    <schoolname>BasketBall U</schoolname>
+    <schoolterm>4</schoolterm>
+
+    <!-- Only 4 days declared -->
+    <day>
+        <dayname>Monday</dayname>
+        <hour>
+            <start>1200</start>
+            <code>DUNK2121</code>
+            <room>1</room>
+        </hour>
+        <hour>
+            <start>1700</start>
+            <code>WISH7534</code>
+            <room>2</room>
+        </hour>
+    </day>
+    <day>
+        <!-- Monday Twice -->
+        <dayname>Monday</dayname>
+        <hour>
+            <!-- Wrong Start Time -->
+            <start>1852</start>
+            <code>CARE2745</code>
+            <room>5</room>
+        </hour>
+        <hour>
+            <start>800</start>
+            <code>FREE7823</code>
+            <room>4</room>
+        </hour>
+    </day>
+    <day>
+        <dayname>Thursday</dayname>
+        <hour>
+            <start>1400</start>
+            <code>JUMP9192</code>
+            <!-- No Room Number -->
+        </hour>
+        <hour>
+            <start>1700</start>
+            <!-- Bad course code -->
+            <code>1234ABCDE</code>
+            <room>2</room>
+        </hour>
+    </day>
+    <day>
+        <dayname>Friday</dayname>
+        <hour>
+            <start>1800</start>
+            <code>BUMP3034</code>
+            <room>1</room>
+        </hour>
+        <hour>
+            <start>2100</start>
+            <code>SHOT2302</code>
+            <room>99</room>
+            <!-- Unkown Element -->
+            <professor>Dr Ake</professor>
+        </hour>
+    </day>
+
+</schedule>
