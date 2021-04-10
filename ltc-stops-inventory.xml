@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="stops.xsl"?>
 <london-transit-data date="2018-09-01" source="http://www.londontransit.ca">
   <!-- Accessed 2021-03-13 1420 -->
   <stop id="1500" name="1550 Highbury NB">
