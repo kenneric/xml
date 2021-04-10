@@ -5,9 +5,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <!-- HTML output -->
 <xsl:output method="html" doctype-public="XSLT-compat" omit-xml-declaration="yes" encoding="UTF-8" indent="yes" />
 
-<!-- import script from script file -->
-<xsl:import href="script.xsl"/>
-
 <xsl:template match="/">
   <html>
   <body>
